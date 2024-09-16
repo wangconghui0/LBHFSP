@@ -1,5 +1,5 @@
-# VRPB
-The Code and Supplemental File for the paper:"Deep Reinforcement Learning for Solving LBHFSP". Please cite our paper if the code is useful for your project.
+# LBHFSP
+The Code and Supplemental File for the paper:"Deep Reinforcement Learning for Solving Hybrid Flow Shop Scheduling Problems with Limited Buffers". Please cite our paper if the code is useful for your project.
 
 
 
