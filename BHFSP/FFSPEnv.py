@@ -620,9 +620,7 @@ class _Stage_N_Machine_Index_Converter:
         for i in range(len(env.machine_cnt_list)):
             lin.append(list(range(0, env.machine_cnt_list[i])))
             machine_SUBindex.append(torch.tensor(list(itertools.permutations(lin[i]))))
-            if i % 2 != 0:
-                machine_SUBindex.append(machine_SUBindex[i].expand(env.pomo_size, env.machine_cnt_list[i]))
-                machine_SUBindex.pop(-2)
+
 
             self.machine_SUBindex_table = torch.cat((self.machine_SUBindex_table, machine_SUBindex[i]), dim=1)
 
